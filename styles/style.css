@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.couples {
+    /* cursor: url(../svg/paw.svg), pointer; */
+    width: 440px;
+    min-height: 440px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(170, 170, 170);
+}
+
+.couples__cardList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.couples__cardItem {
+    cursor: url(../svg/paw.svg), pointer;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(174, 185, 21);
+    margin: 5px;
+    padding: 12px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.flip {
+    background-image: url(../img/card.webp) !important;
+    /* opacity: .3; */
+}
+
+.couple {
+    opacity: .9;
+}
+
+.couples__btn {
+    display: block;
+    width: 150px;
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
