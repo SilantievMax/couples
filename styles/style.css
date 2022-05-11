@@ -16,11 +16,17 @@ ul {
     list-style: none;
 }
 
+body {
+
+    background-color: rgb(182, 225, 201);
+    background-image: url(../img/bg-pow1.webp);
+    background-size: 500px;
+}
+
 .couples {
     /* cursor: url(../svg/paw.svg), pointer; */
-    width: 440px;
-    min-height: 440px;
-    margin-top: 10%;
+    width: 640px;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(170, 170, 170);
@@ -33,9 +39,9 @@ ul {
 
 .couples__cardItem {
     cursor: url(../svg/paw.svg), pointer;
-    width: 100px;
-    height: 100px;
-    background-color: rgb(174, 185, 21);
+    width: 150px;
+    height: 150px;
+    background-color: #DEBA96;
     margin: 5px;
     padding: 12px;
     background-size: cover;
