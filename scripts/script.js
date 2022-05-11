@@ -35,6 +35,7 @@
         for(let i=0; i<=15; i++) {
             const cardItem = document.createElement('li');
             cardItem.classList.add('couples__cardItem');
+            cardItem.classList.add('animate__bounceIn');
             cardItem.classList.add(`couples__img${arryRandom[i]}`);
             cardItem.classList.add('flip');
             cardItem.dataset.num = arryRandom[i];
@@ -76,7 +77,7 @@
                         getClassCard2.forEach(e => e.classList.add('flip'))
         
                         getClassCouple.forEach(e => {
-                            if(e.classList[2] == 'couple') {
+                            if(e.classList[3] == 'couple') {
                                 e.classList.remove('flip')
                             }
                         })
