@@ -1,0 +1,24 @@
+{
+  "name": "couples",
+  "version": "1.0.0",
+  "description": "![alt text](gif/preview.gif)",
+  "main": "index.js",
+  "homepage": "https://silantievmax.github.io/couples",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilantievMax/couples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilantievMax/couples/issues"
+  },
+  "homepage": "https://github.com/SilantievMax/couples#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
